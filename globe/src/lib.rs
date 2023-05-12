@@ -11,7 +11,7 @@ use std::io::Read;
 pub type Int = isize;
 pub type Float = f32;
 
-static EARTH_TEXTURE: &str = include_str!("../textures/earth.txt");
+static EARTH_TEXTURE: &str = include_str!("../textures/earth_night.txt");
 static EARTH_NIGHT_TEXTURE: &str = include_str!("../textures/earth_night.txt");
 
 /// Globe texture.
