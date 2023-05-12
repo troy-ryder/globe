@@ -128,7 +128,7 @@ fn main() {
                 .takes_value(true)
                 .value_name("planet")
                 .default_value("earth")
-                .required_unless_present("texture"),
+                
         )
         .arg(
             Arg::new("texture")
